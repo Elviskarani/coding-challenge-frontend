@@ -1,5 +1,5 @@
 // lib/api.js
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://coding-challenge-backend-x8a7.onrender.com';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://coding-challenge-backend-x8a7.onrender.com/api';
 
 // Helper function to get auth token
 const getAuthToken = () => {
